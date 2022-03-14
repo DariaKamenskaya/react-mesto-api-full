@@ -1,0 +1,15 @@
+.profile__avatar-conteiner {
+  margin: 0;
+  position: relative;
+}
+
+.profile__avatar-conteiner:hover .profile__avatar-overlay {
+  display: block;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.8); /* Настройка цвета и прозрачности для блока при наведении */
+}
+
+
+.profile__avatar-conteiner:hover .profile__avatar-button {
+  opacity: 1.0;
+}

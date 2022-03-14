@@ -1,0 +1,48 @@
+.page {
+    min-width: 300px;
+    /* выше установлена минимальная ширина страницы с учетом внутренних отступов */
+      /* и чтобы не было горизонтального скролла на мобильных разрешениях */
+    max-width: 880px;
+    /* выше установили ограничение по максимальной ширине с учетом внутренних */
+    /* отступов (по 200px с каждой стороны)*/
+    margin: 0 auto 0;
+    /* выше для экранов больше 1280px отцентрировали весь контент */
+    padding: 0 15%;
+    font-family: Inter, Arial, sans-serif;
+}
+
+/*@media screen and (max-width: 1270px) {
+    .page {
+        padding: 0 180px;
+    }
+  } */
+
+  @media screen and (max-width: 1230px) {
+    .page {
+        padding: 0 10%;
+    }
+  }
+
+  @media screen and (max-width: 1090px) {
+    .page {
+        padding: 0 5%;
+    }
+  }
+
+  @media screen and (max-width: 970px) {
+    .page {
+        padding: 0 3%;
+    }
+  }
+
+  @media screen and (max-width: 925px) {
+    .page {
+        padding: 0;
+    }
+  }
+  
+  @media screen and (max-width: 330px) {
+    .page {
+      margin: 0;
+    }
+  }

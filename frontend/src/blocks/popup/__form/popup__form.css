@@ -1,0 +1,6 @@
+/*данный стиль используется для задания формы и в скрипте */
+.popup__form {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}

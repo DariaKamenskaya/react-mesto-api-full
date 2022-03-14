@@ -1,0 +1,16 @@
+.login__signin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .login__signin p {
+    margin-right: 12px;
+  }
