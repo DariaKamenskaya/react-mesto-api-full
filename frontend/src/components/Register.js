@@ -71,7 +71,7 @@ export default function Register() {
 
   return (
     <div className="register">
-        <Header nav={'/sign-up'} navStatus={'Войти'} emailUser={''}/>
+        <Header nav={'/sign-in'} navStatus={'Войти'} emailUser={''}/>
         <h1 className="register__welcome">Регистрация</h1>
         <form onSubmit={handleSubmit} className="register__form">
           <input id="email" name="email" type="email" placeholder="Email" className="register__input"
