@@ -43,7 +43,7 @@ export default function Login({ onLogin }) {
 
   return (
     <div className="login">
-        <Header nav={'/sign-in'} navStatus={'Регистрация'} emailUser={''}/>
+        <Header nav={'/sign-up'} navStatus={'Регистрация'} emailUser={''}/>
         <p className="login__welcome">
           Вход
         </p>
