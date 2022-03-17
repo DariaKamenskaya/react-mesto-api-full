@@ -35,13 +35,6 @@ async function main() {
   // подключаем логгер запросов
   app.use(requestLogger);
 
-  // краш-тест для ревьюера
-  app.get('/crash-test', () => {
-    setTimeout(() => {
-      throw new Error('Сервер сейчас упадёт');
-    }, 0);
-  });
-
   // роуты, не требующие авторизации - регистрация и логин
   app.post('/signup', express.json(), signUpValidation, createUser);
   app.post('/signin', express.json(), signInValidation, login);
